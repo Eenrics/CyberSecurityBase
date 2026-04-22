@@ -1,0 +1,1 @@
+sudo tcpdump -A host csb-capture-the-flag.tb.cs.helsinki.fi and port 1775

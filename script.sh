@@ -1,0 +1,1 @@
+python3 -m pip install django "selenium<4" "urllib3<2" beautifulsoup4 requests
