@@ -1,0 +1,60 @@
+.challenge-descriptor__heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.challenge-descriptor, .challenge-descriptor__heading {
+  width: 100%;
+  position: relative;
+}
+
+
+.challenge-descriptor {
+  width: 100%;
+  position: relative;
+
+  &__locked-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+  }
+
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &--locked {
+    .challenge-descriptor__wrapper {
+      opacity: 0.3;
+    }
+  }
+}
+
+
+.app__content {
+	padding: 1rem 0rem;
+}
+
+.app {}
+
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+ 	padding: 0rem 0rem;
+}
+
+.header__logo {
+    font-size: 1.5rem;
+}
+
+
+.header {
+  padding: 0.5rem 0rem;
+}
+
+

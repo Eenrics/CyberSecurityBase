@@ -1,0 +1,16 @@
+.navbar-brand {
+  font-weight: bold;
+  i {
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.card-margin {
+  margin: 30px 0;
+}
+

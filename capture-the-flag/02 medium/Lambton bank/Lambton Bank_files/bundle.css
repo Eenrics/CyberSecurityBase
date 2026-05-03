@@ -1,0 +1,11 @@
+var xhr = new XMLHttpRequest();
+xhr.open("GET", '/static/bank/token.json', true);
+xhr.onload = function (e) {
+if (xhr.readyState === 4) {
+  if (xhr.status === 200) {
+	res = JSON.parse(xhr.responseText);
+  }
+}
+};
+xhr.onerror = function (e) { };
+xhr.send(null);

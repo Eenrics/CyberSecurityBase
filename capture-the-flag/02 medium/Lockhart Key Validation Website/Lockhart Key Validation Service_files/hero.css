@@ -1,0 +1,36 @@
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("abbey.jpg");
+
+  /* Set a specific height */
+  height: 400px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: 'Tangerine', serif;
+  color: black;
+  background: white;
+  opacity: 0.6;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+body {
+  font-family: 'Roboto', serif;
+}

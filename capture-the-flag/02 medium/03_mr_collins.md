@@ -1,0 +1,3 @@
+## Mr. Collins
+
+- Collins's password is 'LadyCatherinedeBourgh1775' with a secure hash of '9eecb21acbee5d2677e09eed35b4ac63c0031fdcbe4e90ed8f57b09b591dd4cb5c8e9537cf44d56580e1855c76f17faad2be0fbeab0f1ffc563c9e573e8878df'. Mr. Collins decided to change his password as it got hacked but only changed the number. The new hash is '35187fce26decf94ea770ae7b51686790a1ee22d4df3a9f7d3e6ee2e725821378c3e0609a81cebf3f776720e5533b31f5cc81e871d1a25fac6a257f7dcf1869f'. Can you figure out the new password?
